@@ -10,7 +10,7 @@ Below is the JavaScript code that can be used to fetch a random facts from an AP
 
 ```javascript
 function getRandomfacts() {
-    fetch('https://raw.githubusercontent.com/mehmetserdar/facts-api/main/affir.json')
+    fetch('https://raw.githubusercontent.com/mehmetserdar/facts-api/main/facts.json')
         .then(function(response) {
             return response.json();
         })
